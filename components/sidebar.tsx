@@ -79,7 +79,7 @@ export function Sidebar({ currentTab, onTabChange }: SidebarProps) {
                 )}
             </nav>
             <nav className="sticky bottom-0 p-2 bg-background border-t">
-                <Link href="https://github.com/ViewComfy/ViewComfy" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.uevip.net" target="_blank" rel="noopener noreferrer">
                     {isSmallScreen ? (
                         <TooltipButton
                             icon={<LifeBuoy className="size-5" />}
