@@ -22,7 +22,7 @@ export function ErrorAlertDialog(props: { open: boolean, errorTitle?: string, er
                 </AlertDialogHeader>
                 <AlertDialogFooter className="flex-col items-start">
                     <p className={cn("text-sm text-muted-foreground w-full mb-4")}>
-                        ViewComfy is in beta, if you find any bug or need help, you can join our&nbsp;
+                        优一AI中心 is in beta, if you find any bug or need help, you can join our&nbsp;
                         <Link href="https://discord.gg/DXubrz5R7E" target="_blank" rel="noopener noreferrer" className="underline">Discord</Link> or create an issue on <Link href="https://www.uevip.net" target="_blank" rel="noopener noreferrer" className="underline">GitHub</Link>
                     </p>
                     <AlertDialogAction onClick={props.onClose}>Ok</AlertDialogAction>
